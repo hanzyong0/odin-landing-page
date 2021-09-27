@@ -67,6 +67,7 @@ a {
 }
 
 button {
+    border: none;
     background: #3882F6;
     color: white;
     border-radius: 8px;
@@ -92,11 +93,10 @@ button {
 .container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
-    gap: 30px;
+    gap: 10px;
 }
 
-.information p {
+.information figcaption {
     flex-wrap: wrap;
 }
 
@@ -111,7 +111,7 @@ button {
 }
 
 .quote {
-    padding: 20px 200px 100px 200px;
+    padding: 100px 200px 100px 200px;
     display: flex;
     flex-direction: column;
 }
@@ -128,4 +128,39 @@ button {
     font-weight: bold;
     font-size: 25px;
     align-self: flex-end;
+}
+
+/*FOUR*/
+.four {
+    padding: 100px;
+}
+
+.four .container {
+    background: #3882F6;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    border-radius: 8px;
+}
+
+.four .text {
+    color: white;
+}
+
+.four h1,
+.four p {
+    margin: 0;
+    padding: 0;
+}
+
+.four p {
+    font-size: 18px;
+}
+
+.four button {
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
 }
