@@ -79,7 +79,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 100px 100px 100px;
+    padding: 20px 200px 100px 200px;
     gap: 50px;
 }
 
@@ -93,6 +93,7 @@ button {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    gap: 30px;
 }
 
 .information p {
@@ -105,3 +106,26 @@ button {
 }
 
 /*THREE*/
+.three {
+    background: #E5E7EB;
+}
+
+.quote {
+    padding: 20px 200px 100px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote blockquote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    flex-wrap: wrap;
+}
+
+.quote figcaption {
+    font-weight: bold;
+    font-size: 25px;
+    align-self: flex-end;
+}
