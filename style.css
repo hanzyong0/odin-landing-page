@@ -2,7 +2,8 @@ body {
     margin: 0;
 }
 
-.header {
+/*ONE*/
+.one {
     background: #1F2937;
     display: flex;
     flex-direction: column;
@@ -72,3 +73,35 @@ button {
     font-weight: bold;
     padding: 8px 24px;
 }
+
+/*TWO*/
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 100px 100px 100px;
+    gap: 50px;
+}
+
+.two .header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.information p {
+    flex-wrap: wrap;
+}
+
+.information img {
+    width: 100%;
+    height: 100%;
+}
+
+/*THREE*/
